@@ -7,4 +7,8 @@ const controls = {
     PlayerTwoCriticalHitCombination: ['KeyU', 'KeyI', 'KeyO']
 };
 
+this.fight().then(winner => {
+    this.showWinnerModal(winner);
+});
+
 export default controls;
